@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".HauptSeite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/chooseTopicKategorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="33dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/education" />
+
+        <TextView
+            android:id="@+id/anderetextkategorie"
+            android:layout_below="@id/chooseTopicKategorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выберите категорию"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="49dp"
+            android:layout_marginEnd="36dp"
+            android:textColor="#F7C815"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:shadowColor="#02315E"
+            android:shadowDx="6"
+            android:shadowDy="3"
+            android:shadowRadius="1"
+            />
+        <!-- Start Commentar 1 Linie  -->
+        <LinearLayout
+            android:id="@+id/linie1"
+            android:layout_below="@id/anderetextkategorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/verbenPlay"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_back_hellblue_3"
+                android:orientation="vertical"
+                android:paddingStart="26dp"
+                android:paddingEnd="26dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Verben mit Präpositionen lernen"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/verbenQuiz"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_back_hellblue_3"
+                android:orientation="vertical"
+                android:paddingStart="26dp"
+                android:paddingEnd="26dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Quiz Verben mit Präpositionen"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Start Commentar 2 Linie  -->
+        <LinearLayout
+            android:id="@+id/linie2"
+            android:layout_below="@id/linie1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/nomenPlay"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_back_hellblue_3"
+                android:orientation="vertical"
+                android:paddingStart="26dp"
+                android:paddingEnd="26dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Substantive mit Präposition lernen"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nomenQuiz"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_back_hellblue_3"
+                android:orientation="vertical"
+                android:paddingStart="26dp"
+                android:paddingEnd="26dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Quiz Substantive mit Präposition"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Start Commentar 3 Linie  -->
+        <LinearLayout
+            android:id="@+id/linie3"
+            android:layout_below="@id/linie2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/adjektivPlay"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_back_hellblue_3"
+                android:orientation="vertical"
+                android:paddingStart="26dp"
+                android:paddingEnd="26dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Adjektive mit Präposition lernen"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/adjektivQuiz"
+                android:layout_width="0dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_back_hellblue_3"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingStart="26dp"
+                android:paddingEnd="26dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Quiz Adjektive mit Präposition"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/startBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/round_back_yellow_3"
+            android:text="Start"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
